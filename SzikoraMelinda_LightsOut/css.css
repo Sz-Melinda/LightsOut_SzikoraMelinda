@@ -1,0 +1,45 @@
+
+@charset "utf-8";
+
+body {
+
+    background-color: lightslategrey;
+}
+
+main {
+
+    width: 900px;
+    margin: auto;
+    background-color: lightseagreen;
+}
+
+header {
+
+    padding: 20px;
+}
+
+article {
+
+    margin: auto;
+    padding: 30px;
+    width: 310px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+
+    border: 2px solid black;
+}
+
+article div {
+
+    background: grey;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+footer {
+
+    padding: 20px;
+}
